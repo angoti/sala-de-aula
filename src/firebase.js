@@ -1,5 +1,7 @@
 import firebase from "firebase/compat/app";
 import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+
 
 const firebaseConfig = {
     apiKey: "AIzaSyCHLbzNZUgHvPRTT4HY3iNJaKu2EpRun5Q",
@@ -20,6 +22,7 @@ const googleProvider = new firebase.auth.GoogleAuthProvider();
 
 // Sign in and check or create account in firestore
 const signInWithGoogle = async () => {
+    
     try {
         console.log("teste");
         const response = await auth.signInWithPopup(googleProvider);

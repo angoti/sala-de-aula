@@ -1,8 +1,20 @@
-import React from 'react'
-import { signInWithGoogle } from '../firebase'
+import React,{useEffect} from 'react'
+import { signInWithGoogle, auth } from '../firebase'
 import "./Home.css"
 
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useNavigate } from "react-router-dom";
+
+
 function Home() {
+    const [user, loading] = useAuthState(auth);
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        if (loading) return;
+        if (user) navigate("/dashboard");
+    }, [loading, user]);
+
     return (
         <div className="home">
             <div className="home__container">

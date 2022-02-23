@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sala-de-aula/static/css/main.139102d0.css",
-    "main.js": "/sala-de-aula/static/js/main.8e433d0d.js",
+    "main.js": "/sala-de-aula/static/js/main.90c23601.js",
     "static/js/787.2528090b.chunk.js": "/sala-de-aula/static/js/787.2528090b.chunk.js",
     "index.html": "/sala-de-aula/index.html",
     "main.139102d0.css.map": "/sala-de-aula/static/css/main.139102d0.css.map",
-    "main.8e433d0d.js.map": "/sala-de-aula/static/js/main.8e433d0d.js.map",
+    "main.90c23601.js.map": "/sala-de-aula/static/js/main.90c23601.js.map",
     "787.2528090b.chunk.js.map": "/sala-de-aula/static/js/787.2528090b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.139102d0.css",
-    "static/js/main.8e433d0d.js"
+    "static/js/main.90c23601.js"
   ]
 }
